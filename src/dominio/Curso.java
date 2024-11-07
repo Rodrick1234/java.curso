@@ -8,8 +8,6 @@ public class Curso
     private String descricao;
     private int cargahr;
 
-    // Código do Curso
-
     public int getCodigo()
     {
         return codigo;
@@ -18,8 +16,6 @@ public class Curso
     {
         this.codigo = codigo;
     }
-
-    // Nome do Curso
 
     public String getNome()
     {
@@ -30,8 +26,6 @@ public class Curso
         this.nome = nome;
     }
 
-    // Descrição do Curso
-
     public String getDescricao()
     {
         return descricao;
@@ -40,8 +34,6 @@ public class Curso
     {
         this.descricao = descricao;
     }
-
-    // Carga Horária do Curso
 
     public int getCargahr()
     {
